@@ -34,13 +34,13 @@ For non-contextual model using 'adam' optimizer, lr 1e-3 and 10 epoch. BERT usin
 | Model | Macro Avg. | Precision Macro Avg. | Recall Macro Avg. | F1 Accuracy |
 | :---: |:----------:|:--------------------:|:-----------------:|:-----------:|
 |BoW|0.55|0.62|0.55|0.74|
-|TF-IDF|0.65|0.65|0.65|0.76|
+|TF-IDF|0.65|0.65|<b>0.65</b>|0.76|
 |2-Grams|0.55|0.57|0.56|0.72|
 |3-Grams|0.55|0.58|0.55|0.74|
-|Fasttext (Pretrained : Indonesian)|0.55|0.69|0.53|0.78|
+|Fasttext (Pretrained : Indonesian)|0.55|<b>0.69</b>|0.53|0.78|
 |BPE (Pretrained : Indonesian)|0.64|0.62|0.63|0.76|
 |GloVe (Pretrained : Twitter Multilingual)|0.66|0.59|0.6|0.78|
-|BERT : indolem/indobertweet-base-uncased|0.7|0.61|0.63|0.8|
+|BERT : indolem/indobertweet-base-uncased|<b>0.7</b>|0.61|0.63|<b>0.8</b>|
 |BERT : indolem/indobert-base-uncased|0.63|0.57|0.57|0.76|
 |BERT : bert-base-multilingual-uncased|0.69|0.56|0.55|0.76|
 |BERT : Twitter/twhin-bert-base|0.67|0.53|0.5|0.77|
