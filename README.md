@@ -33,10 +33,17 @@ All model above was trained on M1 GPU using Tensorflow and PyTorch (BERT). 3 mod
 For non-contextual model using 'adam' optimizer, lr 1e-3 and 10 epoch. BERT using 'adamw' optimizer, lr 9e-5 and 3 epoch.</br>
 | Model | Macro Avg. | Precision Macro Avg. | Recall Macro Avg. | F1 Accuracy |
 | :---: |:----------:|:--------------------:|:-----------------:|:-----------:|
-| BoW | 0.47 | 0.53 | 0.49 | 0.5 |
-
-
-
+|BoW|0.47|0.53|0.49|0.5|
+|TF-IDF|0.52|0.61|0.55|0.54|
+|2-Grams|0.33|0.64|0.34|0.47|
+|3-Grams|0.25|0.5|0.23|0.39|
+|Fasttext (Pretrained : Indonesian)|0.65|0.66|0.65|0.68|
+|BPE (Pretrained : Indonesian)|0.54|0.54|0.53|0.54|
+|GloVe (Pretrained : Twitter Multilingual)|0.67|0.58|0.57|0.65|
+|BERT : indolem/indobertweet-base-uncased|0.73|0.71|0.71|0.72|
+|BERT : indolem/indobert-base-uncased|0.55|0.54|0.53|0.61|
+|BERT : bert-base-multilingual-uncased|0.59|0.59|0.58|0.62|
+|BERT : Twitter/twhin-bert-base|0.58|0.61|0.58|0.63|
 
 ### 7-Class 
 For non-contextual model using 'adam' optimizer, lr 1e-3 and 30 epoch. BERT using 'adamw' optimizer, lr 5e-5 and 3 epoch.</br>
