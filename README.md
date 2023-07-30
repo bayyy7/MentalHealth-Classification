@@ -25,7 +25,7 @@ Twitter is currently one of the most influential social media. So many individua
 - indolem/indobert-base-uncased</br>
 - bert-base-multilingual-uncased</br>
 - Twitter/twhin-bert-base</br>
-All BERT pretained model available on huggingface.co. You can try with different pretrained model
+All BERT pretained model available on huggingface. You can try with different pretrained model
 ## Setup
 All model above was trained on M1 GPU using Tensorflow and PyTorch (BERT). 3 models that is Fasttext, BPE and GloVe using bidirectional LSTM architecture.</br>
 ## 2 Stage Classification
