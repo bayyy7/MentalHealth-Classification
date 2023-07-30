@@ -33,5 +33,7 @@ All model above was trained on M1 GPU using Tensorflow and PyTorch (BERT). 3 mod
 For non-contextual model using 'adam' optimizer, lr 1e-3 and 10 epoch. BERT using 'adamw' optimizer, lr 9e-5 and 3 epoch.</br>
 ### 7-Class 
 For non-contextual model using 'adam' optimizer, lr 1e-3 and 30 epoch. BERT using 'adamw' optimizer, lr 5e-5 and 3 epoch.</br>
-  
+## Our Paper
+Stay Tune :D
+
   
