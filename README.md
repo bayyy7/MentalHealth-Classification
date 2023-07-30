@@ -30,11 +30,12 @@ All BERT pretained model available on huggingface. You can try with different pr
 All model above was trained on M1 GPU using Tensorflow and PyTorch (BERT). 3 models that is Fasttext, BPE and GloVe using bidirectional LSTM architecture.</br>
 ## 2 Stage Classification
 ### 2-Class (Filtering)
+2 Class contain 2 target (Others vs Non-Others) </br>
 For non-contextual model using 'adam' optimizer, lr 1e-3 and 10 epoch. BERT using 'adamw' optimizer, lr 9e-5 and 3 epoch.</br>
 | Model | Macro Avg. | Precision Macro Avg. | Recall Macro Avg. | F1 Accuracy |
 | :---: |:----------:|:--------------------:|:-----------------:|:-----------:|
 |BoW|0.55|0.62|0.55|0.74|
-|TF-IDF|0.65|0.65|<b>0.65</b>|0.76|
+|TF-IDF|0.65|0.65|<strong>0.65</strong>|0.76|
 |2-Grams|0.55|0.57|0.56|0.72|
 |3-Grams|0.55|0.58|0.55|0.74|
 |Fasttext (Pretrained : Indonesian)|0.55|<b>0.69</b>|0.53|0.78|
@@ -46,6 +47,7 @@ For non-contextual model using 'adam' optimizer, lr 1e-3 and 10 epoch. BERT usin
 |BERT : Twitter/twhin-bert-base|0.67|0.53|0.5|0.77|
 
 ### 7-Class 
+7 class contain : Awareness, Feelings and Problematization, Classification, Accessibility and Funding, Stigma, Service, and Youth </br>
 For non-contextual model using 'adam' optimizer, lr 1e-3 and 30 epoch. BERT using 'adamw' optimizer, lr 5e-5 and 3 epoch.</br>
 | Model | Macro Avg. | Precision Macro Avg. | Recall Macro Avg. | F1 Accuracy |
 | :---: |:----------:|:--------------------:|:-----------------:|:-----------:|
