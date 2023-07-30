@@ -32,7 +32,7 @@ All model above was trained on M1 GPU using Tensorflow and PyTorch (BERT). 3 mod
 ### 2-Class (Filtering)
 For non-contextual model using 'adam' optimizer, lr 1e-3 and 10 epoch. BERT using 'adamw' optimizer, lr 9e-5 and 3 epoch.</br>
 | Model | Macro Avg. | Precision Macro Avg. | Recall Macro Avg. | F1 Accuracy |
-| ----- |:----------:| --------------------:| -----------------:| -----------:|
+| :---: |:----------:|:--------------------:|:-----------------:|:-----------:|
 | BoW | 0.47 | 0.53 | 0.49 | 0.5 |
 
 
