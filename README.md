@@ -49,7 +49,7 @@ For non-contextual model using 'adam' optimizer, lr 1e-3 and 10 epoch. BERT usin
 ### 7-Class 
 7 class contain : Awareness, Feelings and Problematization, Classification, Accessibility and Funding, Stigma, Service, and Youth </br>
 For non-contextual model using 'adam' optimizer, lr 1e-3 and 30 epoch. BERT using 'adamw' optimizer, lr 5e-5 and 3 epoch.</br>
-| Model | Macro Avg. | Precision Macro Avg. | Recall Macro Avg. | F1 Accuracy |
+| Model | Macro Avg. Precision | Macro Avg. Recall | Macro Avg. F1 | Accuracy |
 | :---: |:----------:|:--------------------:|:-----------------:|:-----------:|
 |BoW|0.47|0.53|0.49|0.5|
 |TF-IDF|0.52|0.61|0.55|0.54|
